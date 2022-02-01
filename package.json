@@ -1,0 +1,28 @@
+{
+  "name": "eslint-prettier-exercise",
+  "version": "1.0.0",
+  "description": "Eslint prettier exercise",
+  "main": "eslint.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --config prettierrc \"src/**/*.js\" --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samtechnet/Eslint-Exercise.git"
+  },
+  "author": "Samuel Omolaja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samtechnet/Eslint-Exercise/issues"
+  },
+  "homepage": "https://github.com/samtechnet/Eslint-Exercise#readme",
+  "devDependencies": {
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1"
+  },
+  "dependencies": {
+    "eslint": "^8.8.0"
+  }
+}
